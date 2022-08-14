@@ -10,13 +10,7 @@ public class BuildArrayFromPermutation {
 		System.out.println(Arrays.toString(buildArrayFromPermutation.buildArray(input)));
 	}
 
-	/*public int[] buildArray(int[] nums) {
-		int[] result = new int[nums.length];
-		for(int i=0;i<=nums.length-1;i++) {
-			result[i] = nums[nums[i]];
-		}
-		return result;
-	}*/
+
 	
 	public int[] buildArray(int[] nums) {
 	    int n = nums.length;
